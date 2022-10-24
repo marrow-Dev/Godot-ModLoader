@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Mod_Template/Mod.gd" type="Script" id=1]
+
+[node name="Mod" type="Node2D"]
+position = Vector2( 538, 303 )
+script = ExtResource( 1 )
+Resource_Name = "ModResource"

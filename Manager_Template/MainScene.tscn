@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Manager_Template/Mod_Manager.gd" type="Script" id=1]
+[ext_resource path="res://Manager_Template/ModManager.tres" type="Resource" id=2]
+
+[node name="Mod_Manager" type="Node2D"]
+script = ExtResource( 1 )
+mod_manager = ExtResource( 2 )
+
+[node name="Mod_List" type="ItemList" parent="."]
+margin_left = 753.0
+margin_top = 98.0
+margin_right = 976.0
+margin_bottom = 432.0

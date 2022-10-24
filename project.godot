@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "ModManager",
+"language": "GDScript",
+"path": "res://Manager_Template/menu.gd"
+}, {
+"base": "Resource",
+"class": "Mod_NAME",
+"language": "GDScript",
+"path": "res://Mod_Template/Mod_Resource.gd"
+} ]
+_global_script_class_icons={
+"ModManager": "",
+"Mod_NAME": ""
+}
+
+[application]
+
+config/name="CustomResources"
+run/main_scene="res://Manager_Template/MainScene.tscn"
+config/icon="res://icon.png"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

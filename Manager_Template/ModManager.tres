@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Manager_Template/menu.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+manager_name = "ModManager"
+manager_author = "m a r r o w"
+manager_version = 0.1
+mods = [  ]
